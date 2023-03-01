@@ -16,7 +16,7 @@ namespace gorubi
             int termnum = 30;
 
             //a starting cube for 810 round Trivium;
-            List<uint> curcube = new List<uint>() { 2, 5, 8, 10, 12, 15, 17, 19, 23, 29, 31, 41, 44, 46, 51, 55, 63, 66, 72, 78, 3 };
+            List<uint> curcube = new List<uint>() { 2, 6, 8, 10, 11, 15, 19, 21, 25, 29, 30, 32, 34, 36, 39, 41, 43, 45, 50 };
 
             //a starting cube for 825 round Trivium
             //List<uint> curcube = new List<uint>() { 2, 5, 8, 10, 12, 15, 17, 19, 23, 29, 31, 41, 44, 46, 51, 55, 63, 66, 72, 78, 3 };
