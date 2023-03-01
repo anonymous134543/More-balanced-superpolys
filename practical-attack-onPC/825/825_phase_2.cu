@@ -318,7 +318,7 @@ __device__ void Trivium_device(u32 loop2, u32 num2)
 		out2 = ((out2 & 0x01010101) << 7) ^ ((out2 & 0x02020202) << 5) ^ ((out2 & 0x04040404) << 3) ^ ((out2 & 0x08080808) << 1) ^ ((out2 & 0x10101010) >> 1) ^ ((out2 & 0x20202020) >> 3) ^ ((out2 & 0x40404040) >> 5) ^ ((out2 & 0x80808080) >> 7);
 		/*printf("a:\n");*/
 		
-		//Keystreams output corresponding to the correct key
+		//Keystreams output (832-896 rounds) corresponding to the correct key
 		if (out1 == 211263984 && out2 == 1371880886) {
 			printf("sol_key:\n");
 			for (i = 0;i < 69;i++) {
