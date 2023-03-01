@@ -9,6 +9,6 @@
 
 2. 'nvcc 810_phase1.cu -o main'  &&  'nohup ./main &'
 
-3. Input the values of 40 equations and the key streams corresponding to the correct key to 810_phase2.cu
+3. Input the values of 40 equations and the key streams (832-896 rounds) corresponding to the correct key to 810_phase2.cu
 
 4. 'nvcc 810_phase2.cu -o main'  &&  'nohup ./main &'
