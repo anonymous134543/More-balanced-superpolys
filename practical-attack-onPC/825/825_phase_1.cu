@@ -251,7 +251,7 @@ __global__ void  getsum(u32* part_term_host_divide, u32 loop25, u32* sum1_dev, u
 	u32 i=0;
 	tid = threadIdx.x + blockIdx.x * blockDim.x;
 	sum1_dev[tid] = 0;
-
+	sum2_dev[tid] = 0;
 	for (A = dim * tid; A < dim * (tid + 1); A++) {
 		for (i = 0; i < 32; i++) {
 
