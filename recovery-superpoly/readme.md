@@ -1,6 +1,9 @@
 ## Symbols
 Please note that we use k0 to k80 represent new variables in our code,  all recovered superpolys are for new variables.
 
+## 0 preparation
+install Gurobi   (we used Gurobi 9.5.2)
+install SageMath (we used SageMath Version 9.0)
 
 ## 1 Structure of the reference codes
 start.py: a starting code used to call other code, which also contains the process to extract the quadratic or balanced superpolys and the and obtain addtional polynomials by combining quadratic superpolys.
